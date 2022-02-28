@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'courgette', 'sans serif';
+    letter-spacing: 2px;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1599142296733-1c1f2073e6de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
+    background-size: 900px 1300px;
+    background-repeat: no-repeat;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: 70px;
+    width: 75%;
+}
+
+.headers {
+    margin-left: 100px;
+    font-size: 28px;
+    width: 50%;
+    line-height: 50px;
+}
+
+.headers h3 {
+    padding-bottom: 35px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: rgba(206, 0, 113, 0.753);
+}
+
+.ldt {
+    margin-left: 100px;
+    margin-right: 1200px;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(206, 0, 113, 0.753);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    width: 80%;
+    margin-left: 60px;
+    height: 400px;
+    font-size: 24px;
+    box-shadow: 1px 1px 4px 4px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    width: 17%;
+}
+
+.box label {
+    height: 40px;
+}
+
+button {
+    width: 230px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 4px 4px 4px;
+    background-color: rgb(167, 190, 255);
+    border: 1px solid;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: rgba(206, 0, 113, 0.753);
+    color: white;
+    transition: 150ms ease-in-out;
+    border: 1px solid black;
+}
+
+.account {
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.credits {
+    margin-top: 210px;
+    margin-left: 250px;
+    color: white;
+}
+
+a {
+    color: rgba(206, 0, 113, 0.753);
+}
+
+.credits a {
+    color: rgb(167, 190, 255);
+}
+
+
